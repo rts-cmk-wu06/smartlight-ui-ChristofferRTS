@@ -1,7 +1,12 @@
+import Bgwrap from './components/backgroundWrapper';
 
 function App() {
+
+
   return (
-    <></>
+    <>
+      <Bgwrap />
+    </>
   )
 }
 
