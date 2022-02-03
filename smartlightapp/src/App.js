@@ -1,11 +1,11 @@
-import Bgwrap from './components/backgroundWrapper';
+import Bg from './components/background';
 
 function App() {
 
 
   return (
     <>
-      <Bgwrap />
+      <Bg />
     </>
   )
 }
