@@ -1,16 +1,14 @@
 import MainBg from "./mainbg";
 import BtnContainer from "./buttonsContainer";
-import Navbar from "./navbar";
+import Controls from "./controls";
 
 const Main = () => {
     return ( 
-        <>
         <MainBg>
             <h3 className="p-6">All Rooms</h3>
+            <Controls/>
             <BtnContainer/>
-            <Navbar/>
         </MainBg>
-        </>
      );
 }
  

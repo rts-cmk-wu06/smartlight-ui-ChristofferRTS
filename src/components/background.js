@@ -1,3 +1,4 @@
+
 const Bg = () => {
     return ( 
         <div id="background" className="absolute -z-10" style={{backgroundColor:"#0A4DA2", width:"375px", height:"812px"}}>

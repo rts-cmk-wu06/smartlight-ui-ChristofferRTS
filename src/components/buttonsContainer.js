@@ -1,8 +1,10 @@
+
 import Btn from './button';
 
 const BtnContainer = () => {
   return (
     <div
+    id="buttonsContainer"
       className="container grid grid-cols-2 grid-rows-3"
       style={{ height: 'calc(100% - 136px)' }}>
       <Btn>
@@ -41,7 +43,7 @@ const BtnContainer = () => {
             fill="black"
           />
         </svg>
-        <h4 className='pt-[1.125rem] text-[1.1875rem] text-[#393939]'>Bed room</h4>
+        <h4 className='pt-[1.125rem] text-[1.1875rem] text-[#393939]'>Spisestue</h4>
         <p className=' text-[0.8125rem] text-[#FFA939] pt-1'>4 Lights</p>
       </Btn>
       <Btn>
